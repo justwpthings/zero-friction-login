@@ -1,0 +1,60 @@
+.zfl-logo-upload {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#zfl_logo_preview {
+    margin-bottom: 10px;
+}
+
+.zfl-logo-actions {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+#zfl_logo_preview img {
+    border: 1px solid #ddd;
+    padding: 5px;
+    background: #fff;
+}
+
+#zfl_remove_logo_button {
+    margin-left: 0;
+}
+
+.nav-tab-wrapper {
+    margin-bottom: 20px;
+}
+
+#smtp_settings {
+    transition: all 0.3s ease;
+}
+
+.form-table th {
+    width: 200px;
+}
+
+.form-table td fieldset label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.form-table td .description {
+    margin-top: 5px;
+    font-style: italic;
+}
+
+.wp-picker-container {
+    display: inline-block;
+}
+
+.zfl-section-header th {
+    padding-top: 24px;
+}
+
+.zfl-section-header h3 {
+    margin: 0;
+}

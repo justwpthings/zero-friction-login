@@ -1,0 +1,17 @@
+import React from 'react';
+import { createRoot } from 'react-dom/client';
+import { App } from './App';
+import './index.css';
+
+const container = document.getElementById('zfl-login-root');
+
+if (container) {
+  const root = createRoot(container);
+  root.render(
+    <React.StrictMode>
+      <App />
+    </React.StrictMode>
+  );
+} else {
+  console.error('Zero Friction Login: Root element not found. Please ensure the shortcode is properly rendered.');
+}
